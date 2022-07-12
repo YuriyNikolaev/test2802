@@ -1,0 +1,188 @@
+/* настройки */
+@import url(../css/fonts.css);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background: yellow; */
+  background: #e5e5e5;
+  max-width: 1920px;
+}
+/* кнопки */
+.btn_orange {
+  background: #ffcc80;
+  border-radius: 10px;
+  border: none;
+  font-family: "Panton", sans-serif;
+  color: #3c4852;
+}
+/* заголовок */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #3c4852;
+  text-align: center;
+}
+header img {
+  margin-top: 20px;
+}
+main {
+  /* height: 100vh; */
+  min-width: 1950px;
+}
+.container {
+  max-width: 784px;
+}
+.container h3 {
+  text-align: center;
+  padding-top: 92px;
+  margin-bottom: 37px;
+}
+.container h3 span {
+  font-weight: normal;
+}
+.container fieldset {
+  /* border: 2px solid red; */
+  /* background: yellow; */
+  padding: 30px;
+  margin-bottom: 18px;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+.container fieldset input {
+  width: 100%;
+  height: 50px;
+  margin-top: 12px;
+  border: 1px solid #e6e1e1;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #8e8d8d;
+  padding-left: 28px;
+}
+
+/* = = =  */
+
+.btn_reg {
+  max-width: 289px;
+  padding: 27px 89px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 87px;
+  margin-left: 244px;
+}
+
+/* форма с радио-кнопками */
+.subject_wrap {
+  display: inline-block;
+}
+.subject_wrap span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding-right: 5px;
+}
+/* СТИЛИЗАЦИЯ  input[type="checkbox"]*/
+input[type="radio"] {
+  display: none;
+}
+/* span, который находится сразу за input */
+input[type="radio"] + span {
+  display: inline-block;
+  position: relative;
+  margin-top: 17px;
+  margin-left: 12px;
+  height: 50px;
+  border: 2px solid #ececec;
+  border-radius: 10px;
+  padding: 13px 15px 12px 53px;
+  background-color: #fff;
+}
+/* псевдоэлемент внутри */
+input[type="radio"] + span::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  width: 26px;
+  height: 26px;
+  border: 2px solid #ececec;
+  border-radius: 50%;
+}
+/* псевдо элемент размещенный внутри span, который стоит за чекбоксом в состоянии :checked */
+input[type="radio"]:checked + span::after {
+  content: "";
+  position: absolute;
+  left: 21px;
+  top: calc(13px + 5px);
+  background-color: #ffcc80;
+  width: calc(16px - 6px);
+  height: calc(16px - 6px);
+  border-radius: 50%;
+}
+/* span меняет цвет при выборе кнопки */
+input[type="radio"]:checked + span {
+  background-color: #3c4852;
+  border: 1px solid #3c4852;
+  color: #fff;
+}
+/* Карточка Уровень вашего образования */
+.education {
+  display: flex;
+}
+/* сдвоенное поле в форме*/
+.education fieldset {
+  border: none;
+  padding: 13px 20px 5px 0;
+}
+
+.subject_list {
+  width: 100px;
+}
+
+/* Страница Ожидание окончания регистрации */
+.reg_og {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ok_card {
+  position: relative;
+  top: 50px;
+  height: 543px;
+  width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  /* background: red; */
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  text-align: center;
+}
+.ok_card-clock {
+  position: relative;
+  display: inline-block;
+  top: 99px;
+  /* background-color: green; */
+}
+.card-clock {
+  position: absolute;
+  top: 57px;
+  left: 58px;
+}
+.ok_card-text {
+  position: absolute;
+  top: 383px;
+  left: 107px;
+  width: 519px;
+  color: #3c4852;
+  /* background-color: yellow; */
+}
+.ok_card-text h1 span {
+  font-weight: normal;
+  font-family: "Panton", sans-serif;
+}

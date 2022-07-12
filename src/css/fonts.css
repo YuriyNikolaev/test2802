@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Light.woff2") format("woff2"),
+    url("../fonts/Gilroy-Light.woff") format("woff"),
+    url("../fonts/Gilroy-Light.ttf") format("truetype"),
+    url("../fonts/Gilroy-Light.svg#Gilroy-Light") format("svg");
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Bold.eot");
+  src: url("../fonts/GoogleSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GoogleSans-Bold.woff2") format("woff2"),
+    url("../fonts/GoogleSans-Bold.woff") format("woff"),
+    url("../fonts/GoogleSans-Bold.ttf") format("truetype"),
+    url("../fonts/GoogleSans-Bold.svg#GoogleSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/Panton-Black.eot");
+  src: url("../fonts/Panton-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Panton-Black.woff2") format("woff2"),
+    url("../fonts/Panton-Black.woff") format("woff"),
+    url("../fonts/Panton-Black.ttf") format("truetype"),
+    url("../fonts/Panton-Black.svg#Panton-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/Panton-Bold.eot");
+  src: url("../fonts/Panton-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Panton-Bold.woff2") format("woff2"),
+    url("../fonts/Panton-Bold.woff") format("woff"),
+    url("../fonts/Panton-Bold.ttf") format("truetype"),
+    url("../fonts/Panton-Bold.svg#Panton-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/Panton-Regular.eot");
+  src: local("Panton"), local("Panton-Regular"),
+    url("../fonts/Panton-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Panton-Regular.woff2") format("woff2"),
+    url("../fonts/Panton-Regular.woff") format("woff"),
+    url("../fonts/Panton-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/Panton-ExtraBold.eot");
+  src: local("Panton ExtraBold"), local("Panton-ExtraBold"),
+    url("../fonts/Panton-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Panton-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Panton-ExtraBold.woff") format("woff"),
+    url("../fonts/Panton-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}

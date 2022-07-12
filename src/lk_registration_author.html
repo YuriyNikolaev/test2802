@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета Регистрации Автором</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_lk.css" />
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+  </head>
+  <body>
+    <header>
+      <img src="img/Logo2.png" alt="logo" />
+    </header>
+    <main>
+      <div class="container">
+        <h3>
+          Ответьте на пару простых вопросов, <br /><span
+            >чтобы приступить к работе</span
+          >
+        </h3>
+        <form action="#">
+          <fieldset>
+            <label for="">Ваше полное имя</label><br />
+            <input type="text" />
+          </fieldset>
+          <fieldset>
+            <label for="">Есть ли у вас опыт работ в данной сфере</label><br />
+            <input type="text" />
+          </fieldset>
+          <fieldset>
+            <label for=""
+              >Ссылки на ваши социальные сети и рабочие группы/чаты</label
+            ><br />
+            <input type="text" />
+          </fieldset>
+          <!-- профильная область -->
+          <fieldset class="subject">
+            <label for=""
+              >Какая область предметов является для вас профильной</label
+            ><br />
+            <label class="subject_wrap">
+              <input type="radio" name="name" checked />
+              <span>
+                Технические
+              </span>
+            </label>
+            <label class="subject_wrap">
+              <input type="radio" name="name" />
+              <span>
+                Естественные
+              </span>
+            </label>
+            <label class="subject_wrap">
+              <input type="radio" name="name" />
+              <span>
+                Гуманитарные
+              </span>
+            </label>
+            <label class="subject_wrap">
+              <input type="radio" name="name" />
+              <span>
+                Научные
+              </span>
+            </label>
+          </fieldset>
+          <!-- END профильная область -->
+          <!-- Уровень вашего образования -->
+          <fieldset>
+            <label for="">Уровень вашего образования</label><br />
+            <input list="education" placeholder="Уровень вашего образования" />
+            <datalist id="education">
+              <option value="Среднее">Среднее</option>
+              <option value="Не оконченное высшее">Не оконченное высшее</option>
+              <option value="Высшее образование">Высшее образование</option>
+              <option value="Аспирантура">Аспирантура</option>
+            </datalist>
+            <div class="education">
+              <fieldset>
+                <label for="">Название учебного заведения</label>
+                <input type="text" />
+              </fieldset>
+              <fieldset>
+                <label for="">Год окончания</label>
+                <input type="text" />
+              </fieldset>
+            </div>
+            <label for="">Специальность</label>
+            <input type="text" />
+          </fieldset>
+          <!-- END Уровень вашего образования -->
+          <!-- предметы -->
+          <fieldset>
+            <label for="">Выбирите приорететные для вас предметы</label><br />
+            <input list="subjects" placeholder="Выпадающий список" />
+            <datalist id="subjects">
+              <option value="Предмет 1">Предмет 1</option>
+              <option value="Предмет 2">Предмет 2</option>
+              <option value="Предмет 3">Предмет 3</option>
+              <option value="Предмет 4">Предмет 4</option>
+            </datalist>
+          </fieldset>
+          <!-- END предметы -->
+          <fieldset>
+            <label for="">Предпочтительные виды работ</label><br />
+            <input list="prefer_jobs" placeholder="Выпадающий список" />
+            <datalist id="prefer_jobs">
+              <option value="JOB 1">JOB 1</option>
+              <option value="JOB 2">JOB 2</option>
+              <option value="JOB 3">JOB 3</option>
+              <option value="JOB 4">JOB 4</option>
+            </datalist>
+          </fieldset>
+          <fieldset>
+            <label for="">Часовой пояс</label><br />
+            <input list="timezone" placeholder="В каком часовом поясе вы работаете"/>
+            <datalist id="timezone">
+              <option value="TZone 1">TZone 1</option>
+              <option value="TZone 2">TZone 2</option>
+              <option value="TZone 3">TZone 3</option>
+              <option value="TZone 4">TZone 4</option>
+            </datalist>
+          </fieldset>
+          <input type="submit" value="отправить" class="btn_orange btn_reg" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

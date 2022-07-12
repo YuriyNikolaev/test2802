@@ -1,0 +1,33 @@
+@media (max-width: 1336px) {
+  #body_group11 {
+    width: 80%;
+    /* top: calc(164px - 164px * 0.2);
+    left: calc(1048px - 164px * 0.2); */
+  }
+  body {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 805px;
+  }
+
+  /* .header_btn,
+  a.link_about,
+  a.link_help {
+  }
+
+  .sect_title {
+  } */
+
+  .sect_one-title {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .sect_two-image img {
+    max-width: 80%;
+  }
+
+  /* .sect_two-image p {
+  } */
+}

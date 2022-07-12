@@ -1,0 +1,156 @@
+/* ВСПЛЫВАЮЩЕЕ ОКНО "ВХОД" */
+.enter_window {
+  display:  none;
+  position: relative;
+  width: 1924px;
+  height: 970px;
+  background-color: #3c4852;
+  margin-bottom: 10px;
+}
+
+/* Форма Входа */
+.enter_window .card {
+  position: absolute;
+  left: 735px;
+  top: 188px;
+  width: 450px;
+  height: 593px;
+  background-color: #fff;
+  box-shadow: 0px 20px 100px rgba(18, 24, 32, 0.05);
+  border-radius: 10px;
+}
+
+.enter_window .card_logo {
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.enter_window .card_cancel-link {
+  display: block;
+  margin-left: 390px;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  padding: 5px;
+}
+
+.enter_window .card_form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enter_window .card_form form .form_login,
+.enter_window .card_form form .form_pass,
+.enter_window .card_form form .form_email {
+  width: 306px;
+  height: 54px;
+  margin-bottom: 15px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 30px;
+  background: url(../img/Frame\ 1.svg) no-repeat scroll 256px 14px;
+}
+
+.enter_window .card_form form .form_login {
+  background: url(../img/Frame\ 1.svg) no-repeat scroll 256px 14px;
+}
+
+.enter_window .card_form form .form_pass {
+  background: url(../img/lock\ 1.svg) no-repeat scroll 256px 14px;
+}
+
+.enter_window .card_btn {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.enter_window .card_btn-enter,
+.enter_window .card_btn-reg {
+  height: 60px;
+  padding: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3c4852;
+  line-height: 7px;
+  text-transform: uppercase;
+}
+
+.enter_window .card_btn-enter {
+  width: 128px;
+  background: #ffcc80;
+  border-radius: 10px;
+  border: none;
+}
+
+.enter_window .card_btn-enter:active {
+  background: #c98723;
+}
+
+.enter_window .card_btn-reg {
+  width: 164px;
+  background-color: #fff;
+  border: 1px solid #ffcc80;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.enter_window .card_btn-reg:active {
+  background: #daa85e;
+}
+
+.enter_window .card_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.enter_window .card_text p {
+  font-family: Panton;
+  font-size: 18px;
+  line-height: 20px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  margin: 0 10px 0 10px;
+}
+
+.enter_window .card_text p span {
+  text-transform: capitalize;
+}
+
+.enter_window .card_social {
+  /* display: flex; */
+  margin-top: 37px;
+  text-align: center;
+}
+
+.enter_window .card_social a {
+  margin-left: 10px;
+}
+
+/* Форма Регистрации */
+.enter_window .card_form form .form_email {
+  background: url(../img/form_icons/envelope\ 1.svg) no-repeat scroll 256px 14px;
+}
+
+.enter_window .frm_btn-reg {
+  width: 306px;
+  background: #ffcc80;
+  border-radius: 10px;
+  border: none;
+  height: 60px;
+  padding: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3c4852;
+  line-height: 7px;
+  text-transform: uppercase;
+}
+
+.enter_window .frm_btn-reg:active {
+  background: #c98723;
+}
