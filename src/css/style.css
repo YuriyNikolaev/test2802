@@ -25,11 +25,13 @@ body {
 #body_image37 {
   position: absolute;
   top: 646px;
+  /*width: 15%;*/
 }
 #body_image36 {
   position: absolute;
   left: 55px;
   top: 0;
+  /*width: 15%;*/
 }
 #body_image59 {
   position: absolute;
@@ -38,11 +40,13 @@ body {
 #body_image61 {
   position: absolute;
   top: 3865px;
+  /*width: 6%;*/
 }
 #body_image34 {
   position: absolute;
   top: 164px;
   left: 1048px;
+  /*width: 15%;*/
 }
 #body_group11 {
   position: absolute;
@@ -54,6 +58,7 @@ body {
   position: absolute;
   top: 3373px;
   left: 1661px;
+  /*width: 15%;*/
 }
 
 /* секция container*/
