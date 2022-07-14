@@ -388,5 +388,10 @@ a.link_help:hover,
   /* background-color: yellowgreen; */
 }
 
+.support a {
+  display:  flex;
+  align-items:  center;
+  margin-right: 20px;
+}
 
 /* ВСПЛЫВАЮЩИЕ ОКНА */
