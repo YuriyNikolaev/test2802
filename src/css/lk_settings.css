@@ -87,6 +87,7 @@
 /* Образование */
 .education {
 	padding: 20px 55px;
+	background-color: darkgoldenrod;
 }
 .education h3 {
 	margin-bottom: 20px;
@@ -100,6 +101,8 @@
 	border: none;
     padding: 13px 20px 5px 0;
 }
-
+.edu_name input {
+	padding: 18px auto 18px 35px;
+}
 
 /* Пароль */
