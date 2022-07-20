@@ -106,7 +106,8 @@ lk_settings.css*/
 /* Образование */
 .education {
 	padding: 20px 55px;
-	background-color: darkgoldenrod;
+	/*background-color: darkgoldenrod;*/
+	border-bottom: 1px solid #F3EEEE;
 }
 .education h3 {
 	margin-bottom: 20px;
@@ -115,13 +116,45 @@ lk_settings.css*/
 	line-height: 29px;
 	color: #3C4852;
 }
-
-.education fieldset {
+.education form fieldset {
 	border: none;
     padding: 13px 20px 5px 0;
 }
-.edu_name input {
-	padding: 18px auto 18px 35px;
+
+.edu_name, .edu_faculty, .edu_spec, .edu_status, .edu_course {
+	height:  54px;
+	padding-left: 35px;
+	border: 1px solid #DBD5D5;
+	border-radius: 10px;
+	font-size: 16px;
+	line-height:  19.2px;
+	color: #8E8D8D;
+} 
+.edu_faculty, .edu_spec, .edu_status, .edu_course {
+	width: 340px;
+	margin-right: 15px;
 }
+.edu_name {
+	width: 695px;
+}
+/*кнопка*/
+.edu_submit {
+	width: 175px;
+	height:  55px;
+	margin-top: 19px;
+	background: #66B87A;
+	border: none;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #fff;
+}
+
+
+
+
+
+
 
 /* Пароль 
