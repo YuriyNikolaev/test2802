@@ -1,4 +1,4 @@
-/*lk_settings.css*/
+lk_settings.css*/
 
 .container {
 	margin: 60px auto 90px;
@@ -43,27 +43,46 @@
 
 .settings_user-wrap {
 	color: #3C4852;
-    background: cornsilk
+    /*background: cornsilk*/
 }
 .settings_user-img {
+	position:  relative;
 	margin-right: 27px;
 	padding: 16px;
 	border: 1px solid #DBD5D5;
 	border-radius: 10px;
 	background: #FFFFFF;
-	border: 1px solid #DBD5D5;
-	border-radius: 10px;
 }
 
-.settings_user-name {
+.settings_user_name {
 	display: flex;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
 }
 
+/* черный квадрат с желтым карандашем */
+.settings_user_img {
+	/*display: inline-block;*/
+	position: relative;
+	margin-left: 12px;
+}
+.user_img-pen {
+	position: absolute;
+	top: 8px;
+    left: 9px;
+}
+/* черный квадрат с карандашом для ползьзователя */
+.settings_user_img-photo {
+	position:  absolute;
+	top: 46px;
+    left: 46px;
+}
+
+
 .settings_user-mail {
 	display: flex;
+	align-items: center;
 }
 
 .settings_user-mail p {
@@ -105,4 +124,4 @@
 	padding: 18px auto 18px 35px;
 }
 
-/* Пароль */
+/* Пароль 
