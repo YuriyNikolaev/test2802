@@ -65,18 +65,18 @@
 }
 
 
-.ticket-text {
+.main_orders-text {
 	max-width: 510px;
 	/*padding: 18px 0 18px 45px;*/
 
 }
-.ticket-text h4 {
+.main_orders-text h4 {
 	font-size: 22px;
 	font-weight: 800;
 	line-height: 26.4px;
 	margin-bottom: 6px;
 }
-.ticket-text p {
+.main_orders-text p {
 	font-family: Panton;
 	font-size: 15px;
 	font-weight: 600;
@@ -84,15 +84,15 @@
 	color: #8E8D8D;
 }
 
-.ticket-data-status, .ticket-data-cal, .ticket-data-day {
+.main_orders-data-status, .main_orders-data-cal, .main_orders-data-day {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-.ticket-data-status img {
+.main_orders-data-status img {
 	padding-right:  12px;
 }
-.ticket-data-status-text {
+.main_orders-data-status-text {
 	color: #66B87A;
 	font-size: 16px;
 	font-weight: 700;
@@ -100,10 +100,10 @@
 	margin-bottom: 6px;
 }
 
-.ticket-data-cal img {
+.main_orders-data-cal img {
 	padding-right:  12px;
 }
-.ticket-data-cal-text {
+.main_orders-data-cal-text {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -111,7 +111,7 @@
 }
 
 
-.ticket-data-day {
+.main_orders-data-day {
 	justify-content: flex-start;
 	padding-left: 29px;
 	font-size: 14px;
