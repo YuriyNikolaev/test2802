@@ -1,13 +1,15 @@
 /*lk_orders.css*/
+@import url(../css/fonts.css);
+
+a {
+	text-decoration: none;
+}
 
 .container {
 	margin: 60px auto 90px;
-	max-width: 1206px;
-	height:  758px;
+	max-width: 1240px;
+	height:  700px;
 	/*background: yellowgreen;*/
-	background: #FFFFFF;
-	border: 1px solid #ECECEC;
-	border-radius: 10px;
 }
 
 /* Заголовок НАСТРОЙКА */
@@ -26,14 +28,8 @@
 	color: #3C4852;
 	text-transform: capitalize;
 }
-@import url(../css/fonts.css);
 
-.container {
-	margin: 60px auto 90px;
-	max-width: 1240px;
-	height:  700px;
-	/*background: yellowgreen;*/
-}
+
 
 .main_header {
 	display:  flex;
@@ -100,23 +96,16 @@
 	margin-bottom: 6px;
 }
 
-.main_orders-data-cal img {
-	padding-right:  12px;
+/* СТАТУСЫ ЗАКАЗОВ */
+/* заказ в работе */
+.order_in_progress {
+	color: #E1B26C;
 }
-.main_orders-data-cal-text {
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
-	margin-bottom: 6px;
+/* заказ отменен */
+.order_cancelled {
+	color: #EC5760;
 }
 
-
-.main_orders-data-day {
-	justify-content: flex-start;
-	padding-left: 29px;
-	font-size: 14px;
-	font-weight: 600;
-}
 
 /* Данные пользователя */
 .orders_sub_header {
