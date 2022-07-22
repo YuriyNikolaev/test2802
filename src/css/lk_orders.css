@@ -80,14 +80,8 @@ a {
 	color: #8E8D8D;
 }
 
-.main_orders-data-status, .main_orders-data-cal, .main_orders-data-day {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-.main_orders-data-status img {
-	padding-right:  12px;
-}
+
+
 .main_orders-data-status-text {
 	color: #66B87A;
 	font-size: 16px;
@@ -96,14 +90,53 @@ a {
 	margin-bottom: 6px;
 }
 
+.main_orders-data {
+	display:  flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main_orders-data-price p {
+	color: #3C4852;
+}
+.main_orders-data-price p, .main_orders-customer p  {
+	font-size: 18px;
+
+}
+
+.main_orders-data-price p span {
+	color: #66B87A;
+	font-weight: 700;
+}
+
+
+
+
+
+
+.main_orders-customer, .main_orders-customer p span {
+	color: #8E8D8D;
+}
+
 /* СТАТУСЫ ЗАКАЗОВ */
-/* заказ в работе */
+/* Карточка со статусом Заказ в работе */
 .order_in_progress {
 	color: #E1B26C;
 }
-/* заказ отменен */
+.main_orders-data-price p.order_in_progress {
+	color: #66B87A;
+}
+
+/* Карточка со статусом Заказ отменен */
 .order_cancelled {
 	color: #EC5760;
+}
+.main_orders-data-price p.order_cancelled {
+	color: #EC5760;
+}
+
+/* Карточка со статусом Заказ выполнен */
+.order_done {
+	color: #66B87A;
 }
 
 
