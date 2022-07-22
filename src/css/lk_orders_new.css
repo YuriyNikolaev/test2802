@@ -1,0 +1,32 @@
+/*lk_orders.css*/
+@import url(../css/fonts.css);
+
+a {
+	text-decoration: none;
+	
+}
+
+/* Название заказа */
+.main_orders-text h4 {
+	color: #3C4852;
+}
+
+/* срок выполнения */
+
+/* кнопка подробнее */
+.main_orders-data button {
+	width: 157px;
+	height: 33px;
+	margin-top: 8px;
+	border: 1px solid #FFCC80;
+	border-radius: 6px;
+	color:  #3C4852;
+	text-transform: capitalize;
+	font-size: 15px;
+	line-height:  24px;
+	font-weight: 700;
+	background-color: #fff;
+}
+.main_orders-data button:active {
+	background-color: #FFCC80;
+}
