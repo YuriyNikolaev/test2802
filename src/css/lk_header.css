@@ -34,7 +34,9 @@ main {
 	text-transform: capitalize;
 	font-size: 17px;
 }
-
+.order-btn:active {
+	background: #FFCC50;
+}
 
 
 
@@ -112,7 +114,9 @@ header {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
+.balance_up-btn:active {
+	background: #FFCC50;
+}
 
 .balance_down-btn {
 	height: 30px;
@@ -128,6 +132,12 @@ header {
 	cursor: pointer;
 
 }
+.balance_down-btn:active {
+	background: #C3BFBF;
+	color: #3C4852;
+	font-weight: 500;
+}
+
 
 .support a {
 	display: flex;
@@ -200,6 +210,7 @@ header {
 	padding: 18px 16px;
 	
 }
+
 /*.place_order-btn span {
 	text-transform: capitalize;
 	font-size: 17px;
@@ -215,4 +226,8 @@ header {
 	border: 1px solid #E7E7E7;
 	border-radius: 10px;
 	cursor: pointer;
+}
+.place_order-exit:active {
+	background: #C3BFBF;
+	color: #3C4852;
 }
