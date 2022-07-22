@@ -3,6 +3,7 @@
 
 a {
 	text-decoration: none;
+	
 }
 
 .container {
@@ -41,9 +42,10 @@ a {
 	font-weight: 700;
 	line-height: 36px;
 	color: #3C4852;
+}
+.main_header h3 span {
 	text-transform: capitalize;
 }
-
 
 /* ===== */
 /* ЗАКАЗЫ */
