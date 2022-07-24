@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Мои заказы</title>
+	<title>Автор. Новые заказы</title>
 	<link rel="stylesheet" href="css/lk_header.css">
 	<link rel="stylesheet" href="css/lk_footer.css">
 	<link rel="stylesheet" href="css/lk_orders.css">
+	<link rel="stylesheet" href="css/lk_orders_new.css">
 
 </head>
 <body>
@@ -68,145 +69,146 @@
 	<main>
 		<div class="container">
 			<div class="main_header">
-				<h3><span>мои</span> заказы</h3>
+				<h3><span>новые</span> заказы</h3>
+
+				<!-- выпадающие списки в мэйн-хедере -->
+				<form action="#">
+					<fieldset>
+						<input list="status" class="choose_subj"  type="text" placeholder="Выберите предмет>
+						<datalist id="status">
+							<option value="status 1">status 1</option>
+							<option value="status 2">status 2</option>
+							<option value="status 3">status 3</option>
+						</datalist>
+						<input  list="status" class="type_of_job"  type="text" placeholder="Тип работы">
+					</fieldset>
+				</form>
 			</div>
 
 			<div class="main_section">
 
-				<!-- Заказ 1 идет конкурс -->
+				<!-- Заказ 1 -->
 				<div class="main_orders ">
 				
 					<div class="main_orders-text">
-						<a href="404.html"><h4 class="order_in_progress">Название заказа</h4></a>
+						<a href="404.html"><h4>Название заказа</h4></a>
 						<p>Предмет, Тип задачи</p>
 					</div>
 				
 					<div class="main_orders-data">
 
-						<!-- статус -->
-						<div class="main_orders-data-price order_in_progress">
-							<p class="order_in_progress">Идет конкурс</p>
-							<!-- цена заказа -->
-							<!-- <p>Цена: 1234 р</p>				 -->
+						<!-- срок выполнения -->
+						<div class="main_orders-data-price">
+							<p>Сделать до 11.00.11</p>
 						</div>
-						<!-- Заказчик: Имя -->
-						<div class="main_orders-customer">			    <!-- <p>Заказчик: <a href="404.html"><span>Имя</span></a></p> -->
-						</div>						
+						<!-- кнопка подробнее -->
+						<button>подробнее</button>						
 						
 					</div>
 
 				</div>
 
 
-				<!-- Заказ 2 готов -->
-				<div class="main_orders">
+				<!-- Заказ 2  -->
+				<div class="main_orders ">
 				
 					<div class="main_orders-text">
-						<a href="404.html"><h4 class="order_done">Название заказа</h4></a>
+						<a href="404.html"><h4>Название заказа</h4></a>
 						<p>Предмет, Тип задачи</p>
 					</div>
 				
 					<div class="main_orders-data">
 
-						<!-- статус -->
+						<!-- срок выполнения -->
 						<div class="main_orders-data-price">
-							<!-- цена заказа -->
-							<p>Цена: <span>1234 &#x20bd;</span></p>				
+							<p>Сделать до 11.00.11</p>
 						</div>
-						<!-- Заказчик: Имя -->
-						<div class="main_orders-customer">			    <p>Заказчик: <a href="404.html"><span>Имя</span></a></p>
-						</div>						
+						<!-- кнопка подробнее -->
+						<button>подробнее</button>						
 						
 					</div>
 
 				</div>
 
-				<!-- Заказ 3 отменен -->
-				<div class="main_orders">
+				<!-- Заказ 3  -->
+				<div class="main_orders ">
 				
 					<div class="main_orders-text">
-						<a href="404.html"><h4 class="order_cancelled">Название заказа</h4></a>
+						<a href="404.html"><h4>Название заказа</h4></a>
 						<p>Предмет, Тип задачи</p>
 					</div>
 				
 					<div class="main_orders-data">
 
-						<!-- статус -->
+						<!-- срок выполнения -->
 						<div class="main_orders-data-price">
-							<p class="order_cancelled">Заказ отменен</p>
-							<!-- цена заказа -->
-							<!-- <p>Цена: 1234 р</p>				 -->
+							<p>Сделать до 11.00.11</p>
 						</div>
-						<!-- Заказчик: Имя -->
-						<div class="main_orders-customer">			    <!-- <p>Заказчик: <a href="404.html"><span>Имя</span></a></p> -->
-						</div>						
+						<!-- кнопка подробнее -->
+						<button>подробнее</button>						
 						
 					</div>
 
 				</div>
 
-				<!-- Заказ 4 сделано -->
-				<div class="main_orders">
+				<!-- Заказ 4  -->
+				<div class="main_orders ">
 				
 					<div class="main_orders-text">
-						<a href="404.html"><h4 class="order_done">Название заказа</h4></a>
+						<a href="404.html"><h4>Название заказа</h4></a>
 						<p>Предмет, Тип задачи</p>
 					</div>
 				
 					<div class="main_orders-data">
 
-						<!-- статус -->
+						<!-- срок выполнения -->
 						<div class="main_orders-data-price">
-							<!-- цена заказа -->
-							<p>Цена: <span>1234 &#x20bd;</span></p>				
+							<p>Сделать до 11.00.11</p>
 						</div>
-						<!-- Заказчик: Имя -->
-						<div class="main_orders-customer">			    <p>Заказчик: <a href="404.html"><span>Имя</span></a></p>
-						</div>						
+						<!-- кнопка подробнее -->
+						<button>подробнее</button>						
 						
 					</div>
 
 				</div>
-				<!-- Заказ 5 сделано -->
-				<div class="main_orders">
+
+				<!-- Заказ 5  -->
+				<div class="main_orders ">
 				
 					<div class="main_orders-text">
-						<a href="404.html"><h4 class="order_done">Название заказа</h4></a>
+						<a href="404.html"><h4>Название заказа</h4></a>
 						<p>Предмет, Тип задачи</p>
 					</div>
 				
 					<div class="main_orders-data">
 
-						<!-- статус -->
+						<!-- срок выполнения -->
 						<div class="main_orders-data-price">
-							<!-- цена заказа -->
-							<p>Цена: <span>1234 &#x20bd;</span></p>				
+							<p>Сделать до 11.00.11</p>
 						</div>
-						<!-- Заказчик: Имя -->
-						<div class="main_orders-customer">			    <p>Заказчик: <a href="404.html"><span>Имя</span></a></p>
-						</div>						
+						<!-- кнопка подробнее -->
+						<button>подробнее</button>						
 						
 					</div>
 
 				</div>
-				<!-- Заказ 6 сделано -->
-				<div class="main_orders">
+
+				<!-- Заказ 6  -->
+				<div class="main_orders ">
 				
 					<div class="main_orders-text">
-						<a href="404.html"><h4 class="order_done">Название заказа</h4></a>
+						<a href="404.html"><h4>Название заказа</h4></a>
 						<p>Предмет, Тип задачи</p>
 					</div>
 				
 					<div class="main_orders-data">
 
-						<!-- статус -->
+						<!-- срок выполнения -->
 						<div class="main_orders-data-price">
-							<!-- цена заказа -->
-							<p>Цена: <span>1234 &#x20bd;</span></p>				
+							<p>Сделать до 11.00.11</p>
 						</div>
-						<!-- Заказчик: Имя -->
-						<div class="main_orders-customer">			    <p>Заказчик: <a href="404.html"><span>Имя</span></a></p>
-						</div>						
+						<!-- кнопка подробнее -->
+						<button>подробнее</button>						
 						
 					</div>
 
