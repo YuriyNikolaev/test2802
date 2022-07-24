@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Заказчик. Настройки</title>
+	<link rel="stylesheet" href="css/lk_header.css">
+	<link rel="stylesheet" href="css/lk_footer.css">
+	<link rel="stylesheet" href="css/lk_settings.css">
+
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html" class="logo_link">
+				<img src="img/lk_header/logo.png" alt="logo">
+			</a>
+			
+		</div>
+		<div class="balance">
+			
+			<div class="balance_up">
+				<img src="img/lk_header/money-bag.png" alt="money-bag">
+				<h4>баланс:</h4>
+				<button class="balance_up-btn">1234 &#x20bd;</button>
+			</div>
+
+			<div class="balance_down">
+				<button class="balance_down-btn">Пополнить</button>
+				<button class="balance_down-btn">Вывести</button>	
+			</div>
+
+		</div>
+
+		<div class="support">
+			<a href="lk_support.html">
+				<img src="img/lk_header/chat.png" alt="chat-img">
+				<h4>поддержка</h4>
+			</a>
+			
+		</div>
+		
+		<div class="orders">
+			<a href="lk_orders.html">
+				<img src="img/lk_header/tablet 2.png" alt="заказы">
+				<h4>мои заказы</h4>
+			</a>
+		</div>
+		
+		<div class="settings">
+			<a href="lk_settings.html">
+				<img src="img/lk_header/settings 2.png" alt="settings">
+				<h4>настройки</h4>
+			</a>
+		</div>
+
+		<div class="place_order">
+			<button class="place_order-btn order-btn"><span>разместить</span> заказ</button>
+			<a href="404.html">
+				<img src="img/lk_header/teacher.png">
+			</a>
+			<button class="place_order-exit">выйти</button>
+		</div>
+
+	</header>
+	<!-- END header -->
+	
+	<main>
+		<div class="container">
+			<!-- Заголовок НАСТРОЙКА -->
+			<div class="settings_header">
+				<h3>Настройки</h3>
+			</div>
+
+			<!-- Пользователь -->
+			<div class="settings_sub_header">
+				<!-- данные пользователя -->
+				<div class="settings_user">
+
+					<!-- user фото -->
+					<!-- <div class="settings_user-img">
+						<img src="img/lk_settings/man 1.png" alt=""> -->
+						<!-- черный квадрат с карандашом для ползьзователя -->
+						<!-- <div class="settings_user_img-photo">
+							<img class="user_img-rect" src="img/lk_settings/Rectangle 485.png" alt="#">
+							<img src="img/lk_settings/pen.png" alt="#" class="user_img-pen">
+						</div>
+					</div> -->
+
+					<!-- user ФИО -->
+					<div class="settings_user-wrap">
+						<div class="settings_user_name">
+							<p>Терехов Дмитрий Александрович</p>
+							<!-- черный квадрат с карандашом -->
+							<div class="settings_user_img">
+								<img class="user_img-rect" src="img/lk_settings/Rectangle 485.png" alt="#">
+								<img src="img/lk_settings/pen.png" alt="#" class="user_img-pen">
+							</div>
+							
+						</div>
+						
+						<!-- user e-mail  -->
+						<div class="settings_user-mail">
+							<p><span>Email:</span>  qwerty123456@gmail.com</p>
+							<!-- черный квадрат с карандашом -->
+							<div class="settings_user_img">
+								<img class="user_img-rect" src="img/lk_settings/Rectangle 485.png" alt="#">
+								<img src="img/lk_settings/pen.png" alt="#" class="user_img-pen">
+							</div>
+						</div>
+					</div>
+					
+
+				</div>
+				<!-- id пользователя -->
+				<div class="settings_user-id">
+					<p><span>ID:</span> 1122334455</p>
+				</div>
+			</div>
+
+			<!-- Образование -->
+			<div class="education">
+				<h3>образование</h3>
+				<form action="#">
+
+					<fieldset >
+						<input class="edu_name" type="text" placeholder="Учебное заведение">
+					</fieldset>
+
+					<fieldset>
+						<input class="edu_faculty" type="text" placeholder="Факультет">
+						<input class="edu_spec" type="text" placeholder="Специальность">
+						
+					</fieldset>
+					
+					<!-- Статус (выпадающий список) -->
+					<fieldset>
+						<input list="status" class="edu_status"  type="text" placeholder="Статус (выпадающий список)">
+						<datalist id="status">
+							<option value="status 1">status 1</option>
+							<option value="status 2">status 2</option>
+							<option value="status 3">status 3</option>
+						</datalist>
+						<input class="edu_course"  type="text" placeholder="Курс">
+					</fieldset>
+							
+					<!-- кнопка edu_submit -->
+					<input class="edu_submit" type="submit" value="сохранить">
+				</form>
+			</div>
+
+			<!-- Пароль -->
+			<div class="psswrd">
+				<h3>пароль</h3>
+				<form action="">
+					<fieldset>
+						<input class="psswrd_name" type="text" placeholder="новый пароль" src="img/lk_settings/visibility 1.png">
+						<input class="psswrd_name-new" type="text" placeholder="новый пароль еще раз">
+						<input class="psswrd_name-old" type="text" placeholder="старый пароль">
+					</fieldset>
+
+					<!-- кнопка psswrd_submit -->
+					<input class="psswrd_submit" type="submit" value="изменить">
+				</form>
+			</div>
+
+		</div>
+	</main>
+	<!-- END main -->
+
+	<footer>
+		<div class="paiment_mthd">
+			<p><span>способ</span> оплаты</p>
+			<a href="https://www.visa.com.ru/" target="_blank">
+				<img src="img/lk_footer/visa2.png" alt="visa.png">
+			</a>
+			<a href="https://www.mastercard.ru/ru-ru.html" target="_blank">
+				<img src="img/lk_footer/mastercard.png" alt="mastercard">
+			</a>
+			<a href="https://yoomoney.ru/" target="_blank">
+				<img src="img/lk_footer/yandex_money2.png" alt="yandex_money">
+			</a>
+			<a href="https://www.webmoney.ru/" target="_blank">
+				<img src="img/lk_footer/webmoney2.png" alt="webmoney">
+			</a>
+		</div>
+		
+		<p><span>права</span> защищены и опасны</p>
+		<div class="support">
+			<a href="404.html">
+				<img src="img/lk_footer/Frame 16.png" alt="Frame 16">
+				<p>поддержка</p>
+			</a>
+		</div>
+		<button class="footer_btn order-btn"><span>разместить</span> заказ</button>
+	</footer>
+	<!-- END footer -->
+</body>
+</html>
