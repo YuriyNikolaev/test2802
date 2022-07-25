@@ -1,0 +1,41 @@
+main {
+	margin-bottom: 0;
+}
+
+.container {
+	margin: 60px auto 0;
+	max-width: 1206px;
+	/* height:  758px; */
+	background: #FFFFFF;
+	border: 1px solid #ECECEC;
+	border-radius: 10px;
+}
+/* Заголовок НАСТРОЙКА */
+.make_order_header {
+	/*display:  flex;
+	justify-content: space-between;*/
+	padding-top: 18px;
+	padding-left: 55px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #F3EEEE;
+}
+.make_order_header h3 {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #3C4852;
+	text-transform: capitalize;
+}
+
+/* ФОРМА */
+.order_form {
+	background: green;
+	display:  flex;
+}
+
+.order_form-left {
+	background: red;
+}
+.order_form-right {
+	background: blue;
+}

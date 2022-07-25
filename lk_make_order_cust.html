@@ -6,7 +6,7 @@
 	<title>Заказчик. Настройки</title>
 	<link rel="stylesheet" href="css/lk_header.css">
 	<link rel="stylesheet" href="css/lk_footer.css">
-	<link rel="stylesheet" href="css/lk_settings.css">
+	<!-- <link rel="stylesheet" href="css/lk_settings.css"> -->
 	<link rel="stylesheet" href="css/lk_make_order_cust.css">
 
 </head>
@@ -69,9 +69,47 @@
 	<main>
 		<div class="container">
 			<!-- Заголовок НАСТРОЙКА -->
-			<div class="settings_header">
+			<div class="make_order_header">
 				<h3>размещение заказа</h3>
 			</div>
+
+			<!-- ФОРМЫ -->
+			<form class="order_form">
+
+				<!-- Левая часть формы -->
+				<div class="order_form-left">
+					<fieldset>
+						<!-- Тип работы -->
+						<label for="#">Тип работы</label><br>
+						<input type="text" placeholder="Выпадающий список"><br>
+						<!-- Предмет -->
+						<label for="#">Предмет</label><br>
+						<input type="text" placeholder="Введите ваш предмет"><br>
+						<!-- Название  -->
+						<label for="#">Тип работы</label><br>
+						<input type="text" placeholder="Введите название ">
+						<br>
+						<!-- Срок сдачи -->
+						<label for="#">Срок сдачи</label>
+						<input type="month">
+						<br>
+						<input type="date">
+					</fieldset>
+				</div>
+				
+				<!-- Правая часть формы -->
+				<div class="order_form-right">
+					<fieldset>
+
+						<!-- Описание работы -->
+						<label for="#">Описание работы</label><br>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+					</fieldset>
+				</div>
+
+
+			</form>
+			
 
 			
 
