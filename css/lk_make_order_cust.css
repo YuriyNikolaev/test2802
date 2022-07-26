@@ -26,16 +26,56 @@ main {
 	color: #3C4852;
 	text-transform: capitalize;
 }
-
+/* ==== */
+/* ==== */
 /* ФОРМА */
 .order_form {
 	background: green;
 	display:  flex;
+	justify-content: space-between;
+	padding-left: 65px;
+	padding-right: 70px;
+	padding-top: 43px;
+	margin-bottom: 76px;
 }
-
+/* ==== */
+/* Левая часть формы */
 .order_form-left {
 	background: red;
+	/* padding-left: 65px; */
+	/* padding-right: 35px; */
+	
 }
+.order_form-left fieldset {
+	background: yellow;
+	
+}
+/* настройки инпутов */
+.order_form-left fieldset input {
+	width: 488px;
+	height: 54px;
+}
+/* календарь */
+.order_form-left fieldset .claendar {
+	width: 498px;
+	height: 289px;
+	background: yellowgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* ==== */
+/* Правая часть формы */
 .order_form-right {
 	background: blue;
+	/* padding-right: 70px; */
 }
+
+.order_form-right textarea {
+	width: 540px;
+	height: 704px;
+}
+
+/* Форма. Кнопка размещения заказа */
