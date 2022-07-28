@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/lk_footer.css">
 	<!-- <link rel="stylesheet" href="css/lk_settings.css"> -->
 	<link rel="stylesheet" href="css/lk_make_order_cust.css">
+	<link rel="stylesheet" href="css/lk_mk_order_cust_calc.css">
 
 </head>
 <body>
@@ -103,9 +104,11 @@
 					<fieldset>
 						<label for="#">Срок сдачи</label>
 						<br>
-						<input type="date">
-						<div class="claendar">
-							<p>тут будет календарь</p>
+						<!-- календарь -->
+						<div class="calendar-wrapper">
+							<button id="btnPrev" type="button">Предыдущий</button>
+							<button id="btnNext" type="button">Следующий</button>
+							<div id="divCal"></div>
 						</div>
 					</fieldset>
 
@@ -179,5 +182,7 @@
 		<button class="footer_btn order-btn"><span>разместить</span> заказ</button>
 	</footer>
 	<!-- END footer -->
+	<!-- js -->
+	<script src="js/k_mk_order_cust_calc.js"></script>
 </body>
 </html>
