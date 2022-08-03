@@ -30,7 +30,7 @@ main {
 /* ==== */
 /* ФОРМА */
 .order_form {
-	background: green;
+	/* background: green; */
 	display:  flex;
 	justify-content: space-between;
 	padding-left: 65px;
@@ -41,13 +41,13 @@ main {
 /* ==== */
 /* Левая часть формы */
 .order_form-left {
-	background: red;
+	/* background: red; */
 	/* padding-left: 65px; */
 	/* padding-right: 35px; */
 	
 }
 .order_form-left fieldset {
-	background: yellow;
+	/* background: yellow; */
 	margin-bottom: 12px;
 	border: none;
 	
@@ -79,6 +79,30 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.form_order-btn {
+	width: 193px;
+	height: 58px;
+	padding: 18px 16px;
+}
+
+.order_form-left button .form_order-btn .order-btn {
+	background: #FFCC80;
+	border-radius: 10px;
+	border: none;
+	font-size: 17px;
+	font-weight: 700;
+	color: #3C4852;
+	cursor: pointer;
+}
+
+.order_form-left button .form_order-btn span {
+	text-transform: capitalize;
+	font-size: 17px;
+}
+
+.order-btn:active {
+	background: #FFCC50;
 }
 
 

@@ -1,8 +1,8 @@
 .calendar-wrapper {
   width: 489px;
   height: 291px;
-  margin: 3em auto;
-  padding: 2em;
+  margin: 10px auto;
+  padding: 19px;
   border: 1px solid #dcdcff;
   border-radius: 5px;
   background: #fff;
@@ -19,7 +19,7 @@ table {
 }
 
 td {
-  height: 48px;
+  height: 28px;
   text-align: center;
   vertical-align: middle;
   border-right: 1px solid #dcdcff;
@@ -49,22 +49,22 @@ td.today {
 /* кнопки Предыдущий Следующий */
 #btnPrev {
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #btnPrev:before {
-  content: '\f104';
+  /* content: '\f104'; */
   font-family: FontAwesome;
   padding-right: 4px;
 }
 
 #btnNext {
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #btnNext:before {
-  content: '\f105';
+  /* content: '\f105'; */
   font-family: FontAwesome;
   padding-left: 4px;
 }
@@ -75,7 +75,7 @@ td.today {
   border: none;
   outline: none;
   font-size: 1em;
-  color: #c0c0c0;
+  color: rgb(72 72 72);;
   cursor: pointer;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -87,4 +87,5 @@ td.today {
 #btnNext:hover {
   color: #28283b;
   font-weight: bold;
+
 }
