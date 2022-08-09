@@ -81,7 +81,7 @@
 				<div class="order_form-left">
 					<fieldset>
 						<!-- Тип работы -->
-						<label for="#">Тип работы</label>
+						<label for="#"><span>Тип</span> работы</label>
 						<br>
 						<input type="text" placeholder="Выпадающий список">
 					</fieldset>
@@ -95,14 +95,14 @@
 
 						<!-- Название  -->
 					<fieldset>
-						<label for="#">Тип работы</label>
+						<label for="#"><span>Тип</span> работы</label>
 						<br>
 						<input type="text" placeholder="Введите название ">
 					</fieldset>
 
 						<!-- Срок сдачи -->
 					<fieldset>
-						<label for="#">Срок сдачи</label>
+						<label for="#"><span>Срок</span> сдачи</label>
 						<br>
 						<!-- календарь -->
 						<div class="calendar-wrapper">
@@ -121,7 +121,7 @@
 
 					<!-- цена -->
 					<fieldset>
-						<label for="#">требуемая оригинальность</label>
+						<label for="#"><span>требуемая</span> оригинальность</label>
 						<br>
 						<input type="text" placeholder="Требуемая оригинальность">
 					</fieldset>
@@ -137,11 +137,19 @@
 					<fieldset>
 
 						<!-- Описание работы -->
-						<label for="#">Описание работы</label><br>
+						<label for="#"><span>Описание</span> работы</label><br>
 						<textarea name="" id="" cols="30" rows="10"></textarea>
 
 						<br>
-						<input type="file">
+						<div class="order_form-right-item">
+							<label class="btn-item" for="">
+								<span class="title">Добавить файл</span>
+								<input type="file" multiple>
+							</label>
+						</div>
+						
+						<br>
+						<p>добавленные файлы</p>
 					</fieldset>
 				</div>
 
@@ -182,7 +190,9 @@
 		<button class="footer_btn order-btn"><span>разместить</span> заказ</button>
 	</footer>
 	<!-- END footer -->
+
+
 	<!-- js -->
-	<script src="js/k_mk_order_cust_calc.js"></script>
+	<script src="js/lk_mk_order_cust_calc.js"></script>
 </body>
 </html>

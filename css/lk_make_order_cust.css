@@ -28,6 +28,7 @@ main {
 }
 /* ==== */
 /* ==== */
+
 /* ФОРМА */
 .order_form {
 	/* background: green; */
@@ -71,6 +72,7 @@ main {
 	border: 1px solid #E5E5E5;
 	border-radius: 10px;
 }
+
 /* календарь */
 .order_form-left fieldset .claendar {
 	width: 498px;
@@ -107,15 +109,43 @@ main {
 
 
 /* ==== */
-/* Правая часть формы */
+/* ПРАВАЯ ЧАСТЬ ФОРМЫ */
 .order_form-right {
-	background: blue;
+	/*background: blue;*/
 	/* padding-right: 70px; */
+	
 }
-
+.order_form-right fieldset {
+	border: none;
+}
+.order_form-right fieldset label {
+	font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #3C4852;
+    
+}
+.order_form-right fieldset label span {
+	text-transform: capitalize;
+}
+/* поле с текстом */
 .order_form-right textarea {
 	width: 540px;
-	height: 704px;
+	height: 674px;
+	margin-top: 7px;
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 10px;
 }
 
 /* Форма. Кнопка размещения заказа */
+.order_form-right fieldset label {
+	display:  block;
+	width: 203px;
+	height: 51px;
+	background: #3C4852;
+	border-radius: 10px;
+}
+.order_form-right fieldset input[type=file] {
+	
+}
