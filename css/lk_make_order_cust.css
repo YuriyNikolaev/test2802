@@ -138,7 +138,7 @@ main {
 }
 
 /* Форма. Кнопка размещения заказа */
-.order_form-right fieldset label {
+.order_form-right btn-item input {
 	display:  block;
 	width: 203px;
 	height: 51px;
