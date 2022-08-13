@@ -41,12 +41,12 @@ main {
 }
 /* ==== */
 /* Левая часть формы */
-.order_form-left {
-	/* background: red; */
-	/* padding-left: 65px; */
-	/* padding-right: 35px; */
+/* .order_form-left {
+	background: red;
+	padding-left: 65px;
+	padding-right: 35px;
 	
-}
+} */
 .order_form-left fieldset {
 	/* background: yellow; */
 	margin-bottom: 12px;
@@ -110,11 +110,10 @@ main {
 
 /* ==== */
 /* ПРАВАЯ ЧАСТЬ ФОРМЫ */
-.order_form-right {
-	/*background: blue;*/
-	/* padding-right: 70px; */
-	
-}
+/* .order_form-right {
+	background: blue;
+	padding-right: 70px;
+} */
 .order_form-right fieldset {
 	border: none;
 }
@@ -146,6 +145,6 @@ main {
 	background: #3C4852;
 	border-radius: 10px;
 }
-.order_form-right fieldset input[type=file] {
+/* .order_form-right fieldset input[type=file] {
 	
-}
+} */
