@@ -1,0 +1,106 @@
+ lk_order_typical_cust.css */
+
+.container {
+	margin: 60px auto 90px;
+    max-width: 1240px;
+    height: 700px;
+}
+
+/* Заголовок НАСТРОЙКА */
+.make_order_header {
+	/*display:  flex;
+	justify-content: space-between;*/
+	padding-top: 18px;
+	padding-left: 55px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #F3EEEE;
+}
+.make_order_header h3 {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #3C4852;
+	text-transform: capitalize;
+}
+/* ==== */
+/* ==== */
+.main_header h3 span {
+	text-transform: capitalize;
+}
+
+/* ===== */
+/* ЗАКАЗЫ */
+
+.main_orders {
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	margin-bottom: 14px;
+	padding: 19px 40px;
+	border: 1px solid #F3EEEE;
+	box-shadow: 0px 20px 100px rgba(18, 24, 32, 0.05);
+	border-radius: 10px;
+	color: #3C4852;
+}
+
+
+.main_orders-text {
+	max-width: 510px;
+	/*padding: 18px 0 18px 45px;*/
+
+}
+.main_orders-text h4 {
+	font-size: 22px;
+	font-weight: 800;
+	line-height: 26.4px;
+	margin-bottom: 6px;
+}
+.main_orders-text p {
+	font-family: Panton;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #8E8D8D;
+}
+
+
+
+.main_orders-data-status-text {
+	color: #66B87A;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 6px;
+}
+
+.main_orders-data {
+	display:  flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main_orders-data-price p {
+	color: #3C4852;
+}
+.main_orders-data-price p, .main_orders-customer p  {
+	font-size: 18px;
+
+}
+
+.main_orders-data-price p span {
+	color: #66B87A;
+	font-weight: 700;
+}
+
+/* ==== */
+/* ОТКЛИКИ */
+/* author_list  */ 
+.author_item, .author_item-cheked {
+	width: 468px;
+	height: 90px;
+	
+	border: 1px solid #3C4852;
+	border-radius: 10px;
+}
+.author_item-cheked {
+	background: #3C4852;
+}
