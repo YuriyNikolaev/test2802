@@ -30,3 +30,22 @@ a {
 .main_orders-data button:active {
 	background-color: #FFCC80;
 }
+
+.container .main_header form fieldset {
+	border:  none;
+}
+/* выпадающий список на странице Автор. Новые заказы */
+.choose_subj {
+	width: 217px;
+	height: 54px;
+	border: 1px solid #DBD5D5;
+	border-radius: 10px;
+	padding: 18px 57px 18px 23px;
+}
+.type_of_job {
+	width: 175px;
+	height: 54px;
+	border: 1px solid #DBD5D5;
+	border-radius: 10px;
+	padding: 18px 55px 18px 28px;
+}
