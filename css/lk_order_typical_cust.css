@@ -1,5 +1,7 @@
- lk_order_typical_cust.css */
-
+ /* lk_order_typical_cust.css */
+a {
+    text-decoration: none;
+}
 .container {
 	margin: 60px auto 90px;
     max-width: 1240px;
@@ -7,29 +9,24 @@
 }
 
 /* Заголовок НАСТРОЙКА */
-.make_order_header {
-	/*display:  flex;
-	justify-content: space-between;*/
+.main_header {
 	padding-top: 18px;
-	padding-left: 55px;
 	padding-bottom: 18px;
 	border-bottom: 1px solid #F3EEEE;
 }
-.make_order_header h3 {
+.main_header h3 {
 	font-size: 26px;
 	font-weight: 700;
 	line-height: 31px;
 	color: #3C4852;
 	text-transform: capitalize;
 }
-/* ==== */
-/* ==== */
 .main_header h3 span {
 	text-transform: capitalize;
 }
 
 /* ===== */
-/* ЗАКАЗЫ */
+/* Блок ЗАКАЗЫ */
 
 .main_orders {
 	display: flex;
@@ -46,14 +43,13 @@
 
 .main_orders-text {
 	max-width: 510px;
-	/*padding: 18px 0 18px 45px;*/
-
 }
 .main_orders-text h4 {
 	font-size: 22px;
-	font-weight: 800;
+	font-weight: 600;
 	line-height: 26.4px;
 	margin-bottom: 6px;
+	color:  #3C4852;
 }
 .main_orders-text p {
 	font-family: Panton;
@@ -65,35 +61,31 @@
 
 
 
-.main_orders-data-status-text {
-	color: #66B87A;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
-	margin-bottom: 6px;
-}
-
 .main_orders-data {
 	display:  flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items:  center;
 }
-.main_orders-data-price p {
-	color: #3C4852;
+.main_orders-data p {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
 }
-.main_orders-data-price p, .main_orders-customer p  {
-	font-size: 18px;
-
-}
-
-.main_orders-data-price p span {
-	color: #66B87A;
+.main_orders-data p span {
 	font-weight: 700;
+	color: #66B87A;
 }
 
 /* ==== */
-/* ОТКЛИКИ */
+/* Блок ОТКЛИКИ */
+.responses {
+	display:  flex;
+	justify-content: space-between;
+}
+
 /* author_list  */ 
+
 .author_item, .author_item-cheked {
 	width: 468px;
 	height: 90px;
@@ -103,4 +95,50 @@
 }
 .author_item-cheked {
 	background: #3C4852;
+}
+
+.author_list h4 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+
+
+/* Блок ЧАТ */
+.author_resp, .chat_messeges {
+	width: 700px;
+	background: #FFFFFF;
+	border: 1px solid #F3EEEE;
+	border-radius: 10px;
+}
+
+/* author_resp */
+.author_resp {
+	height: 141px;
+	display:  flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction:  column;
+	padding: 24px;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.author_resp p span {
+	font-weight: 800;
+	color: #EB9F46;
+}
+
+.pay_order-btn {
+	/*width: 194px;
+	height: 47px;*/
+	padding: 12px 27px;
+}
+
+/*  chat_messeges */
+
+.chat_messeges {
+	height: 430px;
+
 }
