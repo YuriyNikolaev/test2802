@@ -59,8 +59,6 @@ a {
 	color: #8E8D8D;
 }
 
-
-
 .main_orders-data {
 	display:  flex;
 	flex-direction: column;
@@ -77,34 +75,109 @@ a {
 	color: #66B87A;
 }
 
+/* обертка кнопок */
+.order_wrap {
+	margin-top: 11px;
+}
+
+ /* кнопка Закрыть заказ */
+button.order_close {
+	width: 155px;
+	height: 34px;
+	margin-right: 10px;
+	background: #FF4B55;
+	border-radius: 6px;
+	border: none;
+	font-size: 15px;
+	line-height: 24px;
+	color: #fff;
+}
+button.order_close span {
+	text-transform: capitalize;
+}
+
+/* кнопка Изменить */
+button.order_edit {
+	width: 127px;
+	height: 34px;
+	background: #66B87A;
+	border-radius: 6px;
+	border: none;
+	font-size: 15px;
+	line-height: 24px;
+	color: #fff;
+}
+/*button.order_edit img {
+	width: 11px;
+	height: 11px
+}*/
+button.order_edit span {
+	text-transform: capitalize;
+}
+
+
+
 /* ==== */
-/* Блок ОТКЛИКИ */
+/* === Блок ОТКЛИКИ === */
 .responses {
 	display:  flex;
 	justify-content: space-between;
 }
 
 /* author_list  */ 
-
-.author_item, .author_item-cheked {
-	width: 468px;
-	height: 90px;
-	
-	border: 1px solid #3C4852;
-	border-radius: 10px;
-}
-.author_item-cheked {
-	background: #3C4852;
-}
-
 .author_list h4 {
 	font-size: 30px;
 	line-height: 36px;
 }
 
+/* == отклик == */
+.author_item, .author_item-cheked {
+	width: 468px;
+	height: 90px;
+	display:  flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 21px;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 24px;
+}
+.author_item {
+	background-color: #fff;
+	border: 1px solid #F3EEEE
+	color: #3C4852;
+}
+.author_item-cheked {
+	color: #fff;
+	background-color: #3C4852;
+	border: 1px solid #3C4852;
+}
+
+.author_img {
+	/*background-color: blue;*/
+}
+.author_name {
+	/*background-color: yellow;*/
+}
+.author_offer {
+	display: flex;
+	flex-direction:  column;
+	align-items: end;
+	/*background-color: red;*/
+}
+.author_offer span {
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 800;
+	color:  #66B87A;
+}
 
 
-/* Блок ЧАТ */
+
+
+/* === Блок ЧАТ === */
 .author_resp, .chat_messeges {
 	width: 700px;
 	background: #FFFFFF;
