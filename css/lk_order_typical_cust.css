@@ -91,10 +91,15 @@ button.order_close {
 	font-size: 15px;
 	line-height: 24px;
 	color: #fff;
+	cursor: pointer;
 }
 button.order_close span {
 	text-transform: capitalize;
 }
+button.order_close:active {
+	background: #a12b31;
+}
+
 
 /* кнопка Изменить */
 button.order_edit {
@@ -106,6 +111,7 @@ button.order_edit {
 	font-size: 15px;
 	line-height: 24px;
 	color: #fff;
+	cursor: pointer;
 }
 /*button.order_edit img {
 	width: 11px;
@@ -114,7 +120,9 @@ button.order_edit {
 button.order_edit span {
 	text-transform: capitalize;
 }
-
+button.order_edit:active {
+	background: #3d814e;
+}
 
 
 /* ==== */
@@ -128,6 +136,10 @@ button.order_edit span {
 .author_list h4 {
 	font-size: 30px;
 	line-height: 36px;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #3C4852;
 }
 
 /* == отклик == */
@@ -146,21 +158,21 @@ button.order_edit span {
 }
 .author_item {
 	background-color: #fff;
-	border: 1px solid #F3EEEE
+	border: 1px solid #F3EEEE;
 	color: #3C4852;
 }
-.author_item-cheked {
+.author_item:hover {
 	color: #fff;
 	background-color: #3C4852;
 	border: 1px solid #3C4852;
 }
 
-.author_img {
-	/*background-color: blue;*/
-}
-.author_name {
-	/*background-color: yellow;*/
-}
+/* .author_img {
+	background-color: blue;
+} */
+/* .author_name {
+	background-color: yellow;
+} */
 .author_offer {
 	display: flex;
 	flex-direction:  column;
@@ -178,24 +190,25 @@ button.order_edit span {
 
 
 /* === Блок ЧАТ === */
-.author_resp, .chat_messeges {
+.author_resp, .chat {
 	width: 700px;
 	background: #FFFFFF;
 	border: 1px solid #F3EEEE;
 	border-radius: 10px;
 }
 
-/* author_resp */
 .author_resp {
 	height: 141px;
 	display:  flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction:  column;
+	margin-bottom: 14px;
 	padding: 24px;
 	font-size: 22px;
 	line-height: 32px;
 	font-weight: 600;
+	color: #3C4852;
 }
 
 .author_resp p span {
@@ -209,9 +222,52 @@ button.order_edit span {
 	padding: 12px 27px;
 }
 
-/*  chat_messeges */
+/* == chat == */
 
-.chat_messeges {
+.chat {
 	height: 430px;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
 
+/* == friend_msg == */
+.friend_msg {
+	display: flex;
+	justify-content: end;
+	background-color: yellowgreen;
+}
+
+/* == my_msg == */
+.my_msg {
+	display: flex;
+		justify-content: start;
+		background-color: green;
+}
+.my_msg-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+}
+.my_msg-msg p {
+	padding-left: 20px;
+}
+.my_msg-item {
+	height: 119px;
+	width: 326px;
+	padding: 14px 20px;
+}
+
+
+/* == chat_input == */
+.chat_input {
+	height: 80px;
+	width: 645px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
