@@ -250,12 +250,23 @@ button.order_edit:active {
 	align-items:  center;
 	width: 187px;
 	height: 37px;
+	position: relative;
 	padding: 0 10px;
 	background: #3C4852;
 	font-size: 15px;
 	color: #fff;
 	border-radius: 10px;
 }
+.friend_msg-item::after {
+	content: '';
+	position: absolute;
+	border:  8px solid transparent;
+	border-left: 8px solid #3C4852;
+	border-bottom: 8px solid #3C4852;
+	top: 56%;
+	left: 96%;
+}
+
 .friend_msg-item p {
 	color: #fff;
 }
@@ -265,6 +276,10 @@ button.order_edit:active {
 }
 .friend_msg-img {
 	margin-left: 23px;
+	display:  flex;
+	flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 /* == my_msg == */
@@ -293,11 +308,25 @@ button.order_edit:active {
 .my_msg-item {
 	height: 119px;
 	width: 326px;
+	margin-left: 5px;
+	position: relative;
     padding: 10px 20px 0 0;
     display:  flex;
     background: #F8F8F8;
 	border-radius:  5px;
     
+}
+.my_msg-item::before{
+	content: '';
+	position: absolute;
+	border:  5px solid transparent;
+	border-right: 5px solid #F8F8F8;
+	/*border-right: 10px solid red;*/
+	border-bottom: 5px solid #F8F8F8;
+	/*border-bottom: 10px solid red;*/
+	left: -9px;
+	top: 92%;
+	
 }
 .my_msg-item p {
 	color: #3C4852;
@@ -319,4 +348,15 @@ button.order_edit:active {
 	align-items: center;
 	border: 1px solid rgba(60, 72, 82, 0.15);
 	border-radius: 14px;
+}
+.chat-btn {
+	/*background: #FFCC80;*/
+	background: url(../img/lk_order_typical_cust/paper-plane_1.svg) no-repeat 115px 14px #FFCC80;
+	border:  none;
+	width: 149px;
+	height: 44px;
+	border-radius: 10px;
+	padding-right: 20px;
+	font-size: 16px;
+	font-weight: 700;
 }
