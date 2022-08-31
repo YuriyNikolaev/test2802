@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Купи работу</title>
     <link rel="stylesheet" href="css/style.css" />
-    <!-- <link rel="stylesheet" href="css/enter_reg_frm.css"> -->
+    <link rel="stylesheet" href="css/index_modal_enter.css">
+    <link rel="stylesheet" href="css/index_modal_reg.css">
     <!-- <link rel="stylesheet" href="css/media.css"> -->
   </head>
   <body>
-    <img id="body_image37" src="img/Vector 37.svg" alt="vector37" />
-    <img id="body_image36" src="img/Vector 36.svg" alt="vector36" />
-    <img id="body_image59" src="img/Vector 59.svg" alt="vector59" />
-    <img id="body_image61" src="img/Vector 61.svg" alt="vector61" />
-    <img id="body_image34" src="img/Vector 34.svg" alt="vector34" />
-    <img id="body_image60" src="img/Vector 60.svg" alt="vector60" />
+    <!-- <img id="body_image37" src="img/Vector 37.svg" alt="vector37" /> -->
+    <!-- <img id="body_image36" src="img/Vector 36.svg" alt="vector36" /> -->
+    <!-- <img id="body_image59" src="img/Vector 59.svg" alt="vector59" /> -->
+    <!-- <img id="body_image61" src="img/Vector 61.svg" alt="vector61" /> -->
+    <!-- <img id="body_image34" src="img/Vector 34.svg" alt="vector34" /> -->
+    <!-- <img id="body_image60" src="img/Vector 60.svg" alt="vector60" /> -->
     <img id="body_group11" src="img/Группа 1 1.png" alt="body_group11" />
 
     <!-- container -->
@@ -32,7 +33,7 @@
             <p>Поддержка</p>
           </a>
           <button class="header_btn">
-            <a href="enter_form.html"><p>Войти</p></a>
+            <a href="#enter_window"><p>Войти</p></a>
             <img src="img/user 1.png" alt="user1" />
           </button>
         </div>
@@ -244,22 +245,28 @@
     </footer>
 
     <!-- Всплывающее окно Вход -->
-    <div class="enter_window">
+    <div id="enter_window">
+
       <div class="card">
+      
         <div class="card_logo">
           <a href="index.html" class="card_cancel-link">
             <img class="card_cancel-image" src="img/cancel (2) 1.svg" alt="cancel">
           </a>
+
           <!-- End card_cancel-link  -->
           <a href="#" class="card_logo-link">
             <img class="card_logo-image" src="img/Logo.png" alt="logo" />
           </a>
           <!-- End card_logo-link  -->
+      
         </div>
         <!-- End card_logo  -->
       
         <div class="card_form">
+      
           <form action="#">
+      
             <!-- ПОЛЯ ФОРМЫ -->
             <input type="text" placeholder="Логин" class="form_login">
             <input type="password" placeholder="Пароль" class="form_pass">
@@ -270,15 +277,17 @@
                   <button class="card_btn-reg" formaction="index.html">регистрация</button> -->
               <!-- кнопки без отправки -->
               <button class="card_btn-enter">войти</button>
-              <button class="card_btn-reg" formaction="reg_form.html">регистрация</button>
+              <button class="card_btn-reg" formaction="#reg_window">регистрация</button>
             </div>
           </form>
+      
           <div class="card_text">
             <img src="img/Line 35.png" alt="line">
             <p><span>или</span> войти через</p>
             <img src="img/Line 35.png" alt="line">
           </div>
         </div>
+      
         <div class="card_social">
           <a href="#"><img src="img/soc_icons/FB.png" alt="Facebook"></a>
           <a href="#"><img src="img/soc_icons/VK.png" alt="VK"></a>
@@ -286,10 +295,13 @@
           <a href="#"><img src="img/soc_icons/Viber.png" alt="Viber"></a>
           <a href="#"><img src="img/soc_icons/Telegram.png" alt="Telegram"></a>
         </div>
+      
       </div>
     </div>
+
+
     <!-- Всплывающее окно Регистрации -->
-    <div class="reg_window">
+    <div id="reg_window">
       <div class="card">
         <div class="card_logo">
           <a href="index.html" class="card_cancel-link">
