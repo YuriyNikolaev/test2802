@@ -134,7 +134,9 @@ a.link_help:hover,
 .header_btn:active {
   background: #7a5825;
 }
-
+.header_btn a {
+  padding: 17px 0 20px 9px;
+}
 .header_btn a p {
   margin-right: 15px;
   display: inline-block;
@@ -152,7 +154,7 @@ a.link_help:hover,
   line-height: 4rem;
 }
 
-/* SECTION ONE */
+/* == SECTION ONE == */
 .sect_one-title {
   margin-top: 202px;
   margin-bottom: 24px;
@@ -184,30 +186,47 @@ a.link_help:hover,
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
-  padding: 33px 40px;
+  /*padding: 33px 40px;*/
   border-radius: 10px;
   border: 1px solid #ffcc80;
   cursor: pointer;
 }
-
+/* btn left */
 .sect_btn-left {
   margin-right: 23px;
   background: #ffcc80;
 }
-
 .sect_btn-left:active {
   background: #da901f;
 }
-
-.sect_btn-right {
-  background: #fff;
+.sect_btn-left a {
+  text-decoration:  none;
+  padding: 33px 40px;
+  color: #3c4852;
+}
+.sect_btn-left a:vizited, {
+  color: #3c4852;
 }
 
+/* btn right */
+.sect_btn-right {
+  background: #fff;
+  p
+}
 .sect_btn-right:active {
   background: #da901f;
 }
+.sect_btn-right a {
+  text-decoration:  none;
+  padding: 33px 40px;
+  color: #3c4852;
+}
+.sect_btn-right a:vizited {
+  color: #3c4852;
+}
 
-/* SECTION TWO */
+
+/* == SECTION TWO == */
 .sect_two {
   margin-bottom: 129px;
 }
@@ -236,7 +255,7 @@ a.link_help:hover,
   font-weight: bold;
 }
 
-/* SECTION THREE */
+/* == SECTION THREE == */
 .sect_three-header {
   margin-top: 79px;
 }
@@ -335,12 +354,22 @@ a.link_help:hover,
   text-align: center;
   margin-bottom: 20px;
 }
+
 .footer_btn {
-  padding: 18px 25px;
+  
   color: #3C4852;
   font-size: 18px;
   font-weight: 700;
 }
+.footer_btn a {
+  text-decoration:  none;
+  color: #3C4852;
+  padding: 18px 23px;
+}
+.footer_btn a:vizited {
+  color: #3C4852;
+}
+
 .footer_container {
   display: flex;
   flex-direction: column;
