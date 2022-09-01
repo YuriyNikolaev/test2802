@@ -66,6 +66,7 @@ main {
 /* = = =  */
 
 .btn_reg {
+  display: block; /* для ссылки. для input нужно убрать */  
   max-width: 289px;
   padding: 27px 89px;
   font-weight: 800;
