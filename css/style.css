@@ -134,6 +134,9 @@ a.link_help:hover,
 .header_btn:active {
   background: #7a5825;
 }
+.header_btn:hover {
+  background: #ffb957;
+}
 .header_btn a {
   padding: 17px 0 20px 9px;
 }
@@ -199,6 +202,9 @@ a.link_help:hover,
 .sect_btn-left:active {
   background: #da901f;
 }
+.sect_btn-left:hover {
+  background: #ffb957;
+}
 .sect_btn-left a {
   text-decoration:  none;
   padding: 33px 40px;
@@ -211,7 +217,9 @@ a.link_help:hover,
 /* btn right */
 .sect_btn-right {
   background: #fff;
-  p
+}
+.sect_btn-right:hover {
+  background: #ebebeb;
 }
 .sect_btn-right:active {
   background: #da901f;
@@ -356,10 +364,12 @@ a.link_help:hover,
 }
 
 .footer_btn {
-  
   color: #3C4852;
   font-size: 18px;
   font-weight: 700;
+}
+.footer_btn:hover {
+  background: #ffb957;
 }
 .footer_btn a {
   text-decoration:  none;
@@ -409,6 +419,9 @@ a.link_help:hover,
   border-radius: 14px;
   /* opacity: 0.2; */
   padding: 5px 15px;
+}
+.footer_payments-items ul li:hover {
+  background: #000;
 }
 
 .support {

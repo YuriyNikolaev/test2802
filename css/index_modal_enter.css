@@ -1,11 +1,11 @@
 /* ВСПЛЫВАЮЩЕЕ ОКНО "ВХОД" */
 #enter_window {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #3c4852;
+  background-color: rgba(60, 72, 82, 0.93);
   /*margin-bottom: 10px;*/
   display:  none;
 }
