@@ -10,6 +10,23 @@
 			width: 500px;
 			text-align: center;
 		}
+		#customer, #author {
+			display: block;
+			margin-top: 30px;
+			height: 30px;
+			border: 2px solid red;
+			border-radius: 5px;
+			text-decoration: none;
+			color: black;
+			background: yellowgreen;
+			padding-top: 10px;
+		}
+		#customer:hover, #author:hover {
+			background: greenyellow;
+		}
+		#customer:active, #author:active {
+			background: green;
+		}
 	</style>
 </head>
 <body>
@@ -18,11 +35,11 @@
 	<div class="container">
 		<h1>Выбор личного кабинета</h1>
 
-		<a href="lk_settings_cust.html">ЛК Заказчика</a>
+		<a id="customer" href="lk_settings_cust.html">ЛК Заказчика</a>
 
 		<br>
 
-		<a href="lk_settings_auth.html">ЛК Автора</a>
+		<a id="author" href="lk_settings_auth.html">ЛК Автора</a>
 	</div>
 	
 </body>
