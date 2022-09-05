@@ -402,3 +402,112 @@ button.order_edit:active {
 	font-size: 16px;
 	font-weight: 700;
 }
+
+
+/* == Модальное окно Оцените исполнителя == */
+.rating_wrap {
+	width: 698px;
+	height: 461px;
+	margin: 30px auto;
+	background: #fff;
+}
+.raiting_star {
+	display: flex;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+}
+.raiting_star p {
+	margin: 43px 28px 30px 42px;
+	font-size: 17px;
+}
+.raiting_star_pict {
+	margin-top: 38px;
+	height: 29px;
+}
+.raiting_star_pict img {
+	width: 27px;
+	height: 27px;
+}
+
+form {
+	width: 613px;
+    margin: 29px auto;
+}
+form textarea {
+	display:  block;
+	width: 613px;
+	height: 246px;
+	border: 1px solid rgba(60, 72, 82, 0.15);
+	border-radius: 14px;
+	padding-top:  30px;
+	padding-left: 34px;
+	font-size: 16px;
+}
+form input[type=submit] {
+	margin: 21px 158px;
+	width: 280px;
+	height: 47px;
+}
+
+
+/* == Модальное окно Ник Ник выслал финальную работу == */
+.final_work_wrap {
+	width: 698px;
+	height: 212px;
+	margin: 30px auto;
+	background: #fff;
+	text-align: center;
+	padding-top: 32px;
+}
+.final_work_wrap h4 {
+	margin-bottom: 20px;
+}
+.final_work_wrap p {
+	margin-bottom: 20px;
+	color: #8E8D8D;
+	font-size: 16px;
+}
+.final_work_btn {
+	display:  flex;
+	justify-content: center;
+}
+.final_work_btn a {
+	text-decoration:  none;
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 6px;
+}
+.final_work_btn-done {
+	width: 156px;
+	height: 41px;
+	background: #66B87A;
+	color: #fff;
+}
+
+.final_work_btn-adjustments {
+	width: 248px;
+	height: 41px;
+	background: #FFCC80;
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #3C4852;
+}
+.final_work_btn-dispute {
+	width: 145px;
+	height: 41px;
+	background: #EC5760;
+	color: #fff;
+}
+/* == Модальное окно Финальная работа == */
+.notification_wrap {
+	width: 698px;
+	height: 212px;
+	margin: 30px auto;
+	background: #fff;
+	text-align: center;
+	padding-top: 43px;
+}
+.notification_wrap h4 {
+	margin-top: 20px;
+}

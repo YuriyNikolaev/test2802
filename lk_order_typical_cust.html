@@ -33,7 +33,7 @@
 		</div>
 
 		<div class="support">
-			<a href="lk_support.html">
+			<a href="lk_support_cust.html">
 				<img src="img/lk_header/chat.png" alt="chat-img">
 				<h4>поддержка</h4>
 			</a>
@@ -41,25 +41,27 @@
 		</div>
 		
 		<div class="orders">
-			<a href="lk_orders.html">
+			<a href="lk_orders_cust.html">
 				<img src="img/lk_header/tablet 2.png" alt="заказы">
 				<h4>мои заказы</h4>
 			</a>
 		</div>
 		
 		<div class="settings">
-			<a href="lk_settings.html">
+			<a href="lk_author_customer.html">
 				<img src="img/lk_header/settings 2.png" alt="settings">
 				<h4>настройки</h4>
 			</a>
 		</div>
 
 		<div class="place_order">
-			<button class="place_order-btn order-btn"><span>разместить</span> заказ</button>
+			<!-- <button class="place_order-btn order-btn"><span>разместить</span> заказ</button> -->
+			<a href="lk_make_order_cust.html" class="place_order-btn order-btn"><span>разместить</span> заказ</a>
 			<a href="404.html">
 				<img src="img/lk_header/teacher.png">
 			</a>
-			<button class="place_order-exit">выйти</button>
+			<!-- <button class="place_order-exit">выйти</button> -->
+			<a href="index.html" class="place_order-exit">выйти</a>
 		</div>
 
 	</header>
@@ -325,13 +327,76 @@
 		
 		<p><span>права</span> защищены и опасны</p>
 		<div class="support">
-			<a href="lk_support.html">
+			<a href="lk_support_cust.html">
 				<img src="img/lk_footer/Frame 16.png" alt="Frame 16">
 				<p>поддержка</p>
 			</a>
 		</div>
-		<button class="footer_btn order-btn"><span>разместить</span> заказ</button>
+		<!-- <button class="footer_btn order-btn"><span>разместить</span> заказ</button> -->
+		<a href="lk_make_order_cust.html" class="place_order-btn order-btn"><span>разместить</span> заказ</a>
 	</footer>
 	<!-- END footer -->
+
+
+	<!-- Модальное окно Оцените исполнителя -->
+
+	<div class="rating_wrap">
+		
+		<div class="raiting_star">
+			
+			<p><span>Оцените</span> исполнителя</p>
+
+			<div class="raiting_star_pict">
+				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+
+
+			</div>
+		</div>
+
+		<form action="#">
+
+			<textarea placeholder="Напишите ваш отзыв"></textarea>
+			
+			<input type="submit" value="Оставить отзыв" class="order-btn">
+
+		</form>
+		
+	</div>
+
+	<!-- Модальное окно Ник Ник выслал финальную работу -->
+
+	<div class="final_work_wrap">
+		
+		<h4>НИК НИК НИК выслал финальную версию работы</h4>
+
+		<p>Заказ перешёл на гарантию, в течении недели вы<br> должны выбрать один из трех пунктов</p>
+
+		<div class="final_work_btn">
+			
+			<a href="#" class="final_work_btn-done">Принять работу</a>
+
+			<a href="#" class="final_work_btn-adjustments">Запросить корректировки </a>
+
+			<a href="#" class="final_work_btn-dispute">Открыть спор</a>
+
+		</div>
+
+	</div>
+
+	<!-- Модальное окно Финальная работа -->
+	<div class="notification_wrap">
+
+		<img src="img/lk_order_typical_cust/check_big.png" alt="">
+		
+		<h4>Исполнтиель должен выслать <br>
+		финальную версию работы до 11.00.11</h4>
+		
+	</div>
+
+
 </body>
 </html>
