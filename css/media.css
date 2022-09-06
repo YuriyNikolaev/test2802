@@ -32,17 +32,16 @@
   }
 } */
 
-@media (max-width: 719px) {
+@media (max-width: 320px) {
   body {
-    max-width: 720px;
-    
+    width: 100%;
+    max-width:  320px;
   }
-  body #body_group11 {
+  #body_group11 {
     display: none;
   }
   .container {
-    max-width: 700px;
-    text-align: center;
+     
   }
   
 }
