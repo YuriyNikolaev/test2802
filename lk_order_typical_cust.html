@@ -86,7 +86,10 @@
 					<div class="main_orders-data">
 						<p>Предложение заказчка: <span>123 456  &#x20bd;</span></p>
 						<div class="order_wrap">
-							<button class="order_close"><span>закрыть</span> заказ</button>
+							<!-- <button class="order_close"><span>закрыть</span> заказ</button> -->
+							<a href="#" class="order_close"><span>закрыть</span> заказ</a>
+
+
 							<button class="order_edit">
 								<!-- <img src="img/lk_order_typical_cust/Frame 31" alt=""> -->
 								<span>изменить</span>
@@ -219,7 +222,10 @@
 						<!-- author_resp -->
 						<div class="author_resp">
 							<p>Ник Ник ник готов взяться за работу за: <span>1234 &#x20bd;</span> </p>
-							<button class="pay_order-btn order-btn">Оплатить заказ</button>
+							<!-- <button class="pay_order-btn order-btn">Оплатить заказ</button> -->
+							<a href="#window_job_done" class="pay_order-btn order-btn">Оплатить заказ</a>
+
+
 						</div>
 
 						<!-- chat -->
@@ -369,33 +375,39 @@
 
 	<!-- Модальное окно Ник Ник выслал финальную работу -->
 
-	<div class="final_work_wrap">
-		
-		<h4>НИК НИК НИК выслал финальную версию работы</h4>
-
-		<p>Заказ перешёл на гарантию, в течении недели вы<br> должны выбрать один из трех пунктов</p>
-
-		<div class="final_work_btn">
+	<div id="final_work">
+		<div class="final_work_wrap">
 			
-			<a href="#" class="final_work_btn-done">Принять работу</a>
+			<h4>НИК НИК НИК выслал финальную версию работы</h4>
 
-			<a href="#" class="final_work_btn-adjustments">Запросить корректировки </a>
+			<p>Заказ перешёл на гарантию, в течении недели вы<br> должны выбрать один из трех пунктов</p>
 
-			<a href="#" class="final_work_btn-dispute">Открыть спор</a>
+			<div class="final_work_btn">
+				
+				<a href="#" class="final_work_btn-done">Принять работу</a>
+
+				<a href="#" class="final_work_btn-adjustments">Запросить корректировки </a>
+
+				<a href="#" class="final_work_btn-dispute">Открыть спор</a>
+
+			</div>
 
 		</div>
-
 	</div>
+	
 
 	<!-- Модальное окно Финальная работа -->
-	<div class="notification_wrap">
+	<a href="#" id="window_job_done">
+		<div id="notification_wrap">
 
-		<img src="img/lk_order_typical_cust/check_big.png" alt="">
+			<img src="img/lk_order_typical_cust/check_big.png" alt="">
 		
-		<h4>Исполнтиель должен выслать <br>
-		финальную версию работы до 11.00.11</h4>
+			<h4>Исполнитель должен выслать <br>
+			финальную версию работы до 11.00.11</h4>
 		
-	</div>
+		</div>
+	</a>
+	
 
 
 </body>

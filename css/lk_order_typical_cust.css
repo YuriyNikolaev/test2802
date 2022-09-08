@@ -6,6 +6,7 @@ a {
 	margin: 60px auto 90px;
     max-width: 1240px;
     height: 700px;
+    position:  relative;
 }
 
 /* Заголовок НАСТРОЙКА */
@@ -221,7 +222,12 @@ button.order_edit:active {
 	height: 47px;*/
 	padding: 12px 27px;
 }
-
+.pay_order-btn:hover {
+	background-color: #edb158;
+}
+.pay_order-btn:active {
+	background-color: #f0c078;
+}
 /* == chat == */
 
 .chat {
@@ -451,6 +457,8 @@ form input[type=submit] {
 
 
 /* == Модальное окно Ник Ник выслал финальную работу == */
+#final_work{}
+
 .final_work_wrap {
 	width: 698px;
 	height: 212px;
@@ -500,14 +508,34 @@ form input[type=submit] {
 	color: #fff;
 }
 /* == Модальное окно Финальная работа == */
-.notification_wrap {
+#window_job_done {
+	display:  none;
+	position: fixed;
+	width: 100%;
+  	height: 100%;
+  	top: 100px;
+	left: 0;
+	background-color: rgba(60, 72, 82, 0.23);
+	color: #3C4852;
+}
+#window_job_done:vizited {
+	color: #3C4852;
+}
+#window_job_done:target {
+	display:  block;
+}
+#notification_wrap {
 	width: 698px;
 	height: 212px;
-	margin: 30px auto;
+	margin: 120px auto;
 	background: #fff;
 	text-align: center;
 	padding-top: 43px;
 }
-.notification_wrap h4 {
+
+#notification_wrap h4 {
 	margin-top: 20px;
 }
+
+
+
