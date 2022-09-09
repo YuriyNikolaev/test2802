@@ -87,13 +87,18 @@
 						<p>Предложение заказчка: <span>123 456  &#x20bd;</span></p>
 						<div class="order_wrap">
 							<!-- <button class="order_close"><span>закрыть</span> заказ</button> -->
-							<a href="#" class="order_close"><span>закрыть</span> заказ</a>
+							<a href="#fnl_work" class="order_close">
+								<span>закрыть</span> заказ
+							</a>
 
 
-							<button class="order_edit">
-								<!-- <img src="img/lk_order_typical_cust/Frame 31" alt=""> -->
+							<!-- <button class="order_edit">
+								<img src="img/lk_order_typical_cust/Frame 31" alt="">
 								<span>изменить</span>
-							</button>
+							</button> -->
+							<a class="order_edit" href="#fnl_work">
+								<span>изменить</span>
+							</a>
 						</div>
 						
 										
@@ -108,7 +113,7 @@
 						<h4>Отклики</h4>
 
 						<!-- отклик 1 -->
-						<a href="#" class="author_link">
+						<a href="#rating" class="author_link">
 
 							<div class="author_item">
 							
@@ -131,7 +136,7 @@
 						
 
 						<!-- отклик 2 -->
-						<a href="#" class="author_link">
+						<a href="#rating" class="author_link">
 						
 							<div class="author_item">
 						
@@ -152,7 +157,7 @@
 						</a>
 
 						<!-- отклик 3 -->
-						<a href="#" class="author_link">
+						<a href="#rating" class="author_link">
 
 							<div class="author_item">
 							
@@ -173,7 +178,7 @@
 						</a>
 
 						<!-- отклик 4 -->
-						<a href="#" class="author_link">
+						<a href="#rating" class="author_link">
 
 							<div class="author_item">
 							
@@ -194,7 +199,7 @@
 						</a>
 
 						<!-- отклик 5 -->
-						<a href="#" class="author_link">
+						<a href="#rating" class="author_link">
 
 							<div class="author_item">
 							
@@ -345,39 +350,44 @@
 
 
 	<!-- Модальное окно Оцените исполнителя -->
-
-	<div class="rating_wrap">
+	<div id="rating">
 		
-		<div class="raiting_star">
+		<div class="rating_wrap">
 			
-			<p><span>Оцените</span> исполнителя</p>
+			<div class="raiting_star">
+				
+				<p><span>Оцените</span> исполнителя</p>
 
-			<div class="raiting_star_pict">
-				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
-				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
-				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
-				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
-				<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+				<div class="raiting_star_pict">
+					<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+					<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+					<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+					<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
+					<img src="./img/lk_order_typical_cust/raiting_star.png" alt="rating star">
 
 
+				</div>
 			</div>
+
+			<form action="#">
+
+				<textarea placeholder="Напишите ваш отзыв"></textarea>
+				
+				<input type="submit" value="Оставить отзыв" class="order-btn">
+
+			</form>
+			
 		</div>
 
-		<form action="#">
-
-			<textarea placeholder="Напишите ваш отзыв"></textarea>
-			
-			<input type="submit" value="Оставить отзыв" class="order-btn">
-
-		</form>
-		
 	</div>
+	
 
 	<!-- Модальное окно Ник Ник выслал финальную работу -->
 
-	<div id="final_work">
+	<div id="fnl_work">
+
 		<div class="final_work_wrap">
-			
+				
 			<h4>НИК НИК НИК выслал финальную версию работы</h4>
 
 			<p>Заказ перешёл на гарантию, в течении недели вы<br> должны выбрать один из трех пунктов</p>
@@ -389,10 +399,10 @@
 				<a href="#" class="final_work_btn-adjustments">Запросить корректировки </a>
 
 				<a href="#" class="final_work_btn-dispute">Открыть спор</a>
-
 			</div>
 
 		</div>
+
 	</div>
 	
 
